@@ -21,7 +21,7 @@ app.get('/biu', function (req, res) {
 
   getMysql(res)
   // console.log(getMysql());
-}).listen('80', '39.106.60.100', function (err) {
+}).listen('8088', 'localhost', function (err) {
   if (err) {
     throw err
   } else {
